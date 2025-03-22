@@ -43,7 +43,7 @@ class BlogManager {
     renderBlogPost(postId) {
         const post = blogPosts.find(p => p.id === parseInt(postId));
         if (!post) {
-            window.location.href = 'index.html#blog';
+            window.location.href = 'blog.html';
             return;
         }
 
@@ -56,8 +56,8 @@ class BlogManager {
         mainContent.innerHTML = `
             <article class="blog-post">
                 <div class="container">
-                    <a href="index.html#blog" class="back-to-home">
-                        <i class="fas fa-arrow-left"></i> Back to Homepage
+                    <a href="blog.html" class="back-to-home">
+                        <i class="fas fa-arrow-left"></i> Back to Blog
                     </a>
                     ${post.content}
                     <div class="post-meta">

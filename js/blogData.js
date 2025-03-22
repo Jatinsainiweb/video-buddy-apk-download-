@@ -1,5 +1,248 @@
 const blogPosts = [
     {
+        id: 10,
+        title: 'Video Buddy APK Installation Guide',
+        description: 'A step-by-step guide for installing Video Buddy APK on your Android device, including system requirements and troubleshooting tips.',
+        thumbnail: 'mobile',
+        content: `
+            <div class="article-content">
+                <h2>System Requirements</h2>
+                <ul>
+                    <li>Android 5.0 or higher</li>
+                    <li>Minimum 2GB RAM</li>
+                    <li>50MB free storage space</li>
+                    <li>Active internet connection</li>
+                </ul>
+
+                <h2>Pre-Installation Steps</h2>
+                <ol>
+                    <li>Enable "Unknown Sources" in your Android settings</li>
+                    <li>Clear some storage space if needed</li>
+                    <li>Ensure stable internet connection</li>
+                    <li>Back up your data (recommended)</li>
+                </ol>
+
+                <h2>Installation Process</h2>
+                <ol>
+                    <li>Download the Video Buddy APK file</li>
+                    <li>Locate the downloaded APK in your device</li>
+                    <li>Tap on the APK file to begin installation</li>
+                    <li>Review and accept the permissions</li>
+                    <li>Wait for installation to complete</li>
+                    <li>Open Video Buddy and start downloading!</li>
+                </ol>
+
+                <h2>Troubleshooting Tips</h2>
+                <ul>
+                    <li>If installation fails, check your storage space</li>
+                    <li>Ensure "Unknown Sources" is enabled</li>
+                    <li>Try clearing cache and temporary files</li>
+                    <li>Restart your device if needed</li>
+                </ul>
+            </div>
+        `,
+        publishDate: '2023-08-10'
+    },
+    {
+        id: 9,
+        title: 'Video Buddy Download - Your Ultimate Video Downloader Guide',
+        description: 'A comprehensive guide to Video Buddy - the powerful video downloader that lets you save and manage videos from multiple platforms.',
+        thumbnail: 'guide',
+        content: `
+            <div class="article-content">
+                <h2>What is Video Buddy?</h2>
+                <p>Video Buddy is a powerful video downloading application that allows users to save videos from multiple platforms, including social media sites and video streaming services. With its intuitive interface and robust features, it has become a go-to choice for millions of users worldwide.</p>
+
+                <h2>Key Features</h2>
+                <ul>
+                    <li>Multi-platform support for various video sites</li>
+                    <li>High-quality video downloads (up to 4K)</li>
+                    <li>Batch downloading capability</li>
+                    <li>Built-in video player</li>
+                    <li>Download scheduling</li>
+                    <li>Format conversion options</li>
+                </ul>
+
+                <h2>Benefits of Using Video Buddy</h2>
+                <ul>
+                    <li>Easy-to-use interface</li>
+                    <li>Fast download speeds</li>
+                    <li>Reliable performance</li>
+                    <li>Regular updates</li>
+                    <li>Comprehensive platform support</li>
+                </ul>
+
+                <h2>Conclusion</h2>
+                <p>Video Buddy offers a comprehensive solution for all your video downloading needs. With its robust features and user-friendly interface, it's an excellent choice for anyone looking to save their favorite videos for offline viewing. Download Video Buddy today and experience hassle-free video downloading!</p>
+            </div>
+        `,
+        publishDate: '2023-08-05'
+    },
+    {
+        id: 8,
+        title: 'Video Buddy Articles Collection',
+        description: 'A comprehensive collection of articles about Video Buddy, covering everything from installation guides to advanced features and troubleshooting tips.',
+        thumbnail: 'collection',
+        content: `
+            <div class="article-content">
+                <h2>Introduction</h2>
+                <p>In today's digital age, having a reliable video downloader is essential for enjoying content offline. Video Buddy has emerged as one of the most versatile and user-friendly solutions for downloading videos from various platforms. This comprehensive guide will walk you through everything you need to know about Video Buddy download.</p>
+
+                <h2>What is Video Buddy?</h2>
+                <p>Video Buddy is a powerful video downloading application that allows users to save videos from multiple platforms, including social media sites and video streaming services. With its intuitive interface and robust features, it has become a go-to choice for millions of users worldwide.</p>
+
+                <h2>Key Features</h2>
+                <ul>
+                    <li>Multi-platform support</li>
+                    <li>Fast download speeds</li>
+                    <li>Built-in video player</li>
+                    <li>Multiple video quality options</li>
+                    <li>Batch downloading capability</li>
+                    <li>Browser integration</li>
+                    <li>Social media support</li>
+                </ul>
+
+                <h2>Benefits of Using Video Buddy</h2>
+                <ul>
+                    <li>Save videos for offline viewing</li>
+                    <li>Multiple format support</li>
+                    <li>No registration required</li>
+                    <li>Regular updates</li>
+                    <li>User-friendly interface</li>
+                </ul>
+            </div>
+        `,
+        publishDate: '2023-08-01'
+    },
+    {
+        id: 7,
+        title: 'Video Buddy APK Download - Complete Installation Guide',
+        description: 'Get the latest Video Buddy APK download guide with step-by-step instructions for installation, features, and troubleshooting tips.',
+        thumbnail: 'android',
+        content: `
+            <div class="article-content">
+                <h2>Introduction</h2>
+                <p>Looking to download and install Video Buddy APK on your Android device? This comprehensive guide covers everything from downloading the APK file to troubleshooting common installation issues, ensuring you can enjoy Video Buddy's powerful features without any hassle.</p>
+
+                <h2>System Requirements</h2>
+                <ul>
+                    <li>Android 5.0 or higher</li>
+                    <li>Minimum 2GB RAM</li>
+                    <li>50MB free storage space</li>
+                    <li>Active internet connection</li>
+                </ul>
+
+                <h2>Download and Installation Steps</h2>
+                <ol>
+                    <li>Enable "Unknown Sources" in Settings</li>
+                    <li>Download the Video Buddy APK</li>
+                    <li>Locate the downloaded file</li>
+                    <li>Tap to install</li>
+                    <li>Grant necessary permissions</li>
+                </ol>
+
+                <h2>Latest Features</h2>
+                <ul>
+                    <li>Enhanced download speeds</li>
+                    <li>Improved video quality options</li>
+                    <li>New user interface</li>
+                    <li>Better platform compatibility</li>
+                    <li>Advanced download manager</li>
+                </ul>
+
+                <h2>Security Considerations</h2>
+                <ul>
+                    <li>Only download from trusted sources</li>
+                    <li>Check app permissions</li>
+                    <li>Verify APK signature</li>
+                    <li>Keep your device protected</li>
+                </ul>
+            </div>
+        `,
+        publishDate: '2023-07-25'
+    },
+    {
+        id: 6,
+        title: 'Video Buddy App Free Download - Everything You Need to Know',
+        description: 'Get Video Buddy app free download guide with exclusive features, benefits, and step-by-step installation instructions for the best video downloading experience.',
+        thumbnail: 'download',
+        content: `
+            <div class="article-content">
+                <h2>Introduction</h2>
+                <p>Video Buddy app has revolutionized how we download and manage video content. This comprehensive guide explores everything about the free version of Video Buddy, helping you make the most of this powerful application.</p>
+
+                <h2>Why Choose Video Buddy Free Version?</h2>
+                <ul>
+                    <li>No subscription costs</li>
+                    <li>Core features included</li>
+                    <li>Regular updates</li>
+                    <li>Community support</li>
+                    <li>Basic video management</li>
+                </ul>
+
+                <h2>Essential Features</h2>
+                <ul>
+                    <li>Multiple platform support</li>
+                    <li>Basic download options</li>
+                    <li>Standard video quality</li>
+                    <li>Simple interface</li>
+                    <li>Built-in player</li>
+                </ul>
+
+                <h2>Download Process</h2>
+                <ol>
+                    <li>Visit official website</li>
+                    <li>Select free version</li>
+                    <li>Download the installer</li>
+                    <li>Run installation</li>
+                    <li>Complete setup</li>
+                </ol>
+            </div>
+        `,
+        publishDate: '2023-07-20'
+    },
+    {
+        id: 5,
+        title: 'Download Videos with Video Buddy - Ultimate Guide',
+        description: 'Learn how to download videos with Video Buddy efficiently. Get expert tips, troubleshooting help, and maximize your video downloading experience.',
+        thumbnail: 'video',
+        content: `
+            <div class="article-content">
+                <h2>Introduction</h2>
+                <p>Video Buddy has become the go-to solution for downloading videos from various platforms. This comprehensive guide will show you how to make the most of Video Buddy's downloading capabilities and ensure you get the best quality videos every time.</p>
+
+                <h2>Supported Platforms</h2>
+                <ul>
+                    <li>Social media sites</li>
+                    <li>Video streaming services</li>
+                    <li>News websites</li>
+                    <li>Educational platforms</li>
+                    <li>Entertainment portals</li>
+                </ul>
+
+                <h2>Download Process Guide</h2>
+                <ol>
+                    <li>Copy video URL</li>
+                    <li>Open Video Buddy</li>
+                    <li>Paste URL</li>
+                    <li>Select quality</li>
+                    <li>Choose download location</li>
+                    <li>Start download</li>
+                </ol>
+
+                <h2>Advanced Download Features</h2>
+                <ul>
+                    <li>Batch downloading</li>
+                    <li>Schedule downloads</li>
+                    <li>Quality selection</li>
+                    <li>Format conversion</li>
+                    <li>Download resume</li>
+                </ul>
+            </div>
+        `,
+        publishDate: '2023-07-15'
+    },
+    {
         id: 4,
         title: 'Video Buddy Download: Your Ultimate Guide to Safe Video Downloads',
         description: 'Learn how to download and use Video Buddy, the ultimate video downloader app for easy, safe, and fast downloads from YouTube and other platforms.',
